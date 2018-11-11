@@ -21,3 +21,25 @@ const agesOfUsers = users.map((user) => user.age)
 let name
 let user
 ```
+**Make your variable names easy to pronounce**
+
+When code reviews are being done, these names are easier to reference.
+
+```
+// DON'T
+let fName, lName
+let cntr
+
+let full = false
+if (cart.size > 100) {
+  full = true
+}
+
+// DO
+let firstName, lastName
+let counter
+
+const MAX_CART_SIZE = 100
+// ...
+const isFull = cart.size > MAX_CART_SIZE
+```

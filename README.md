@@ -18,4 +18,6 @@ const ages = arr.map((i) => i.age)
 // DO
 let daysSinceModification
 const agesOfUsers = users.map((user) => user.age)
+let name
+let user
 ```
